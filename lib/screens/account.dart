@@ -61,7 +61,7 @@ class _AccountState extends State<Account> {
                           onTap: () {
                             showDialog(
                               context: context,
-                              child: Dialog(
+                              builder: (context) => Dialog(
                                 shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(20)),
                                 child: Card(

@@ -74,7 +74,7 @@ class _BloodBankFormState extends State<BloodBankForm> {
               ),
               InkWell(
                 onTap: () {
-                  showDialog(context: context, child: dialog());
+                  showDialog(context: context, builder: (context) => dialog());
                 },
                 child: Center(
                     child: Container(
